@@ -1,12 +1,79 @@
 h1 {
-    color: #27aedb;
+    color:black;
+    font-weight: bold;
     text-align: center;
     }
     
 
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
+*{
+    background-color: rgb(143, 190, 154);
+  
+}
+
+
+nav{
+    /*display: flex;
+    flex-direction: row;
+    justify-content: center;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* To create space between items */
     align-items: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 40px;
+}
+
+h3{
+    color:rgb(232, 134, 64);
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    margin-left: 60px;
+    margin-right: 40px;
+    padding-left:100px;
+    padding-right: 57px;
+    size: 50%;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  
+}
+
+img{
+    width: 250px;
+    height: 200px;
+    border-radius: 2%;
+    border: 4px solid  rgb(232, 134, 64);
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+span{
+    align-items: center;
+    margin-top: 22px;
+    color: rgb(232, 134, 64);
+}
+
+.info{
+    display: block;
+    width: 300px;
+    height: 214px;
+}
+
+hr{
+    border: none;
+    border-top: 1px dotted #000;
+    padding: 0px;
+    margin-top: 0px;
 }
