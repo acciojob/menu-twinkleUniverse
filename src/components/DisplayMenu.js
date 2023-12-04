@@ -23,7 +23,7 @@ const DisplayMenu = ({ data, selection }) => {
     console.log(selection)
 
     return (
-        <div id="container">
+        <div id="categories">
             {
                 menu.map(item => (
                     <div key={item.id} className="menu">
