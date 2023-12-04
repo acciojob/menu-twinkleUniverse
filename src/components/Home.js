@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 
 const Home = ({setSelection}) => {
    
@@ -16,4 +16,4 @@ const Home = ({setSelection}) => {
     )
 };
 
-export default Home;
+export default Home;*/
