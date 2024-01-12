@@ -66,7 +66,7 @@ const MenuPage = (props) => {
           All
         </div>
         <div
-          id="filter-btn-1"
+          data-test-id="menu-item-breakfast"
           onClick={() => {
             setDetails(
               props.Details.filter((dish) => dish.category == "breakfast")
@@ -76,7 +76,7 @@ const MenuPage = (props) => {
           Breakfast
         </div>
         <div
-          id="filter-btn-2"
+          data-test-id="menu-item-lunch"
           onClick={() => {
             setDetails(
               props.Details.filter((dish) => dish.category == "lunch")
@@ -86,7 +86,7 @@ const MenuPage = (props) => {
           Lunch
         </div>
         <div
-          id="filter-btn-3"
+          data-test-id="menu-item-shakes"
           onClick={() => {
             setDetails(
               props.Details.filter((dish) => dish.category === "shakes")
