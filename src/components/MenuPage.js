@@ -57,7 +57,7 @@ const MenuPage = (props) => {
 
   return (
     <div>
-      <main id="categories">
+      <main id="categories" className="main">
         <div
           onClick={() => {
             setDetails([...props.Details]);
