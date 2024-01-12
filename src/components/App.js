@@ -99,7 +99,7 @@ export default App;*/
 
 
 import React from "react";
-import MenuPage from "./DisplayMenu";
+import MenuPage from "./MenuPage";
 import "../styles/App.css";
 
 const App = () => {
@@ -188,9 +188,8 @@ const App = () => {
   ];
 
   return (
-    <div id="heading">
+    <div className="main">
       <h1>Our Menu</h1>
-      <div id="underline"></div>
       <MenuPage Details={Details} />
     </div>
   );
