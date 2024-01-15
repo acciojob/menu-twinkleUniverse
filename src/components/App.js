@@ -188,7 +188,7 @@ const App = () => {
   ];
 
   return (
-    <div className="main">
+    <div>
       <h1>Our Menu</h1>
       <MenuPage Details={Details} />
     </div>

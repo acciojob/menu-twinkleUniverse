@@ -56,8 +56,8 @@ const MenuPage = (props) => {
   const [Details, setDetails] = useState(props.Details);
 
   return (
-    <div>
-      <main id="categories" className="main">
+    <div  className="main">
+      <main id="categories">
         <div
           onClick={() => {
             setDetails([...props.Details]);
@@ -98,7 +98,7 @@ const MenuPage = (props) => {
           Shakes
         </div>
       </main>
-      <div id="menu-details">
+      <div id="menu-details" >
         {Details &&
           Details.map((obj) => {
             return (
